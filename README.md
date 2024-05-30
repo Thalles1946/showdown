@@ -1,4 +1,6 @@
-# Getting Started with Create React App
+# Thalles Augusto Website
+
+You can see more about me at my [Linkedin profile](https://www.linkedin.com/in/thalles-augusto-drumond-neves-917aa6186/).
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
