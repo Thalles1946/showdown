@@ -5,7 +5,26 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>Hello world</p>
+        <p>icon</p>
+        <div className="Pages-index">
+          <a className="Index-link">
+            <span className="Index-number">01. </span>
+            About
+          </a>
+          <a className="Index-link">
+            <span className="Index-number">02. </span>
+            Experience
+          </a>
+          <a className="Index-link">
+            <span className="Index-number">03. </span>
+            Work
+          </a>
+          <a className="Index-link">
+            <span className="Index-number">04. </span>
+            Contact
+          </a>
+          <a className="Button">Resume</a>
+        </div>
       </header>
       <body className="App-body">
         <h4 className="Body-minor-title">Hi, my name is</h4>{" "}
@@ -18,9 +37,9 @@ function App() {
         </p>
         <a
           href="https://www.linkedin.com/in/thalles-augusto-drumond-neves-917aa6186/"
-          className="button-linkedin"
+          className="Button"
         >
-          Check out my linkedin
+          Check out my linkedin!
         </a>
       </body>
     </div>
