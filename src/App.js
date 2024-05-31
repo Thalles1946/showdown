@@ -16,6 +16,12 @@ function App() {
           designing) exceptional digital experiences, Currently, I'm focused on
           building accessible, human-centered products at Usiminas.
         </p>
+        <a
+          href="https://www.linkedin.com/in/thalles-augusto-drumond-neves-917aa6186/"
+          className="button-linkedin"
+        >
+          Check out my linkedin
+        </a>
       </body>
     </div>
   );
