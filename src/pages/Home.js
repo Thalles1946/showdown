@@ -1,10 +1,11 @@
 import "../App.css";
+import logo from "./logo.ico";
 
 function Home() {
   return (
     <div className="App">
       <header className="App-header">
-        <p>icon</p>
+        <img src={logo} alt="logo" />
         <div className="Pages-index">
           <a className="Index-link">
             <span className="Index-number">01. </span>
