@@ -5,9 +5,11 @@ import About from "./pages/About";
 import Contact from "./pages/Contact";
 import Experience from "./pages/Experience";
 import Work from "./pages/Work";
+import { useState } from "react";
 
 function App() {
   const path = window.location.pathname;
+  const [loading, setLoading] = useState(false);
 
   function Router(path) {
     switch (path) {
@@ -51,10 +53,9 @@ function App() {
             <span className="Index-number">04. </span>
             Contact
           </a>
-          <a className="Button">Resume</a>
         </div>
       </header>
-      {Router(path)}
+      {!loading ? Router(path) : null}
     </div>
   );
 }

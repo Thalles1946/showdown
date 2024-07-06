@@ -1,0 +1,16 @@
+.Experience-body {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 10px;
+  justify-items: center;
+  padding: 10px;
+}
+
+.Experience-item {
+  border: 2px solid #1e9ea3;
+  border-radius: 5px;
+  width: 45%;
+  color: #1e9ea3;
+  cursor: pointer;
+  text-decoration: none;
+}

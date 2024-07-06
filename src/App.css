@@ -1,7 +1,9 @@
 .App {
   text-align: center;
   background-color: #0a192f;
-  height: 100vh;
+  min-height: 100vh;
+  background-attachment: fixed;
+  background-size: cover;
   font-family: "Roboto Mono";
 }
 

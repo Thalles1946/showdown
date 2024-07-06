@@ -14,6 +14,8 @@ function Home() {
       <a
         href="https://www.linkedin.com/in/thalles-augusto-drumond-neves-917aa6186/"
         className="Button"
+        target="_blank"
+        rel="noreferrer"
       >
         Check out my linkedin!
       </a>
