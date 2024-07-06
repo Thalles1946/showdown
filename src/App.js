@@ -49,10 +49,6 @@ function App() {
             <span className="Index-number">03. </span>
             Work
           </a>
-          <a className="Index-link" href="Contact">
-            <span className="Index-number">04. </span>
-            Contact
-          </a>
         </div>
       </header>
       {!loading ? Router(path) : null}
