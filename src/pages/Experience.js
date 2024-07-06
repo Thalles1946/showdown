@@ -23,15 +23,19 @@ function Experience() {
   }, []);
 
   return (
-    <div className="Experience-body">
-      {repos.map((data) => {
-        return (
-          <a href={data.html_url} target="_blank" className="Experience-item">
-            <p>{data.name}</p>
-          </a>
-        );
-      })}
-    </div>
+    <body>
+      <h2 className="Body-subtitle">My projects</h2>
+
+      <div className="Experience-body">
+        {repos.map((data) => {
+          return (
+            <a href={data.html_url} target="_blank" className="Experience-item">
+              <p>{data.name}</p>
+            </a>
+          );
+        })}
+      </div>
+    </body>
   );
 }
 export default Experience;
