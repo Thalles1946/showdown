@@ -3,7 +3,7 @@ import "./Pages.css";
 function About() {
   return (
     <body className="App-body">
-      <h2 className="Body-subtitle">Who I am?</h2>
+      <h2 className="Body-subtitle">Who am I?</h2>
       <div className="About-Content">
         <p className="Body-description" style={{ width: "50%" }}>
           <p>
@@ -34,7 +34,7 @@ function About() {
             contribute significantly to challenging and innovative projects.
           </p>
         </p>
-        <img
+        {/* <img
           src="https://media.licdn.com/dms/image/D4D03AQHZGQgr7OGqyg/profile-displayphoto-shrink_200_200/0/1705429312643?e=1725494400&v=beta&t=tkiKP118itr2UW5wuBpCSisjO4OtXjFf0jsPnw_vdYc"
           alt="HappyFace"
           width="300"
@@ -45,7 +45,7 @@ function About() {
             alignSelf: "center",
             marginBottom: "5%",
           }}
-        />
+        /> */}
       </div>
     </body>
   );
