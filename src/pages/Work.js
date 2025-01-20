@@ -3,7 +3,7 @@ import "../App.css";
 function Work() {
   return (
     <body className="App-body">
-      <h4 className="Body-subtitle">What I am doing now?</h4>
+      <h4 className="Body-subtitle">What am I doing now?</h4>
       <p className="Body-description">
         Actually I am working at Usiminas, creating and mantaining Java API's
         using Quarkus. Besides, I am developing a mobile app using React Native
